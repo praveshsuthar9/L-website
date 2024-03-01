@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ccc;
+}
+
+body {
+  background-color: #111 !important;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.partner-cont {
+  height: 35vh;
+  background-image: url(/assets/images/partner-img2.avif);
+  background-position: 1% 65%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partner-cont h3 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+  letter-spacing: 3px;
+}
+
+.partner-cont h3 span {
+  color: #3434db;
+}
+
+.partner-content h3 {
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.partner-content p {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.partner-img img {
+  width: 100%;
+}

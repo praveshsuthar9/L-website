@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ccc;
+}
+
+body {
+  background-color: #111 !important;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.certification-cont h3 {
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.c-content h6 {
+  font-size: 25px;
+  font-weight: 300;
+}
+.c-content h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.c-content p {
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 20px;
+}

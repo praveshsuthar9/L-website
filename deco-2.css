@@ -1,0 +1,34 @@
+.staped-container p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.staped-container h6 {
+  padding-top: 15px;
+  font-size: 25px;
+  color: orange;
+}
+
+.stamped-c {
+  margin: 50px 0;
+}
+
+.stamped-c img {
+  height: 400px;
+}
+
+@media screen and (max-width: 479px) {
+  .staped-container h6 {
+    font-size: 24px;
+  }
+
+  .stamped-c {
+    margin: 15px 0;
+  }
+
+
+  .staped-container p {
+    font-size: 16px;
+  }
+}

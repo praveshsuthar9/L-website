@@ -1,0 +1,681 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+}
+
+
+body{
+    background-color: #333 !important;
+   position: relative;
+}
+
+.slick-container{
+    position: relative;
+    z-index: 0;
+}
+
+.slick-prev:before  {
+    position: absolute;
+    left: 250%;
+   color: #000 !important; background-color: orange;
+    padding: 5px;
+    border-radius: 50%;
+    z-index:10  ;
+}
+
+.slick-next:before{
+    position: absolute;
+    right: 250%;
+    border: 1px solid orange;
+    border-radius: 50% ;
+  color: #000 !important;
+  background-color: orange;
+  padding: 5px;
+   
+}
+
+.slick-slider img{
+    z-index:0;
+}
+
+.slick-dots li.slick-active button::before {
+    opacity: 0.75;
+    color: #fff !important;
+}
+
+.slick-dots li button:before {
+    color: #fff !important;
+}
+
+nav.navbar{
+position: fixed ;
+top: 0;
+left: 0;
+right: 0;
+height: 70px;
+padding: 5px;
+background-color: #222;
+z-index: 3;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: olive !important;
+    flex-direction: column;
+}
+
+.dropdown-menu{
+    background-color: #111 !important;
+    
+}
+
+.dropdown-item{
+    color: #fff !important;
+}
+
+.dropdown-item {
+    min-width: 200px !important;
+ 
+}
+
+.dropdown-item:hover{
+    background-color: #222 !important;
+}
+
+section{
+    padding: 50px 0;
+}
+
+/* Hero-section-start */
+.hero-cont{
+    background-image: url(assets/image/background-img2.jpg ) !important;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-cont h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hero-cont h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: #222;
+    text-shadow: 2px 3px 4px  orange;
+}
+
+.btn button{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 12px 40px;
+    background-color: #4b4bec;
+    border: 1px solid transparent;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.btn button:hover{
+    border: 1px solid #4b4bec;
+    background-color: transparent;
+}
+/* Hero-section-end */
+
+/* Service-Setion-Start */
+.service-cont h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ccc;
+
+}
+
+.service-cont p{
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ccc;
+}
+
+.red-btn button{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #4b4bec;
+    padding: 12px 40px;
+    margin-top: 30px;
+    transition: all 03s linear;
+}
+
+
+.red-btn button:hover{
+    border: 1px solid #4b4bec;
+    background-color: transparent;
+}
+/* Service-Setion-end */
+
+/* Ani-section-start */
+.ani-cont h6{
+font-size: 25px;
+font-weight: bold;
+}
+
+ h3{
+font-size:80px !important;
+font-weight: bold;
+line-height: 80px;
+margin-bottom: 32px;
+}
+
+h3 span{
+color: orange;
+}
+
+.ani-cont p{
+    font-size: 20px;
+    font-weight: 300;
+    position: 20px;
+}
+
+.animation-container{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animation{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    animation: roted 18s infinite linear;
+}
+
+.ani-img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: absolute;
+    animation: roted 18s infinite linear;
+    border: 2px solid #4b4bec;
+}
+
+.ani-img img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.img1{
+    top: -60px;
+    left: 70px;
+}
+
+.img2{
+    top: 115px;
+    left: -60px;
+}
+
+.img3{
+  top: 300px;
+  left: 50px;
+}
+
+.img4{
+  top: 240px;
+  right: -35px;
+}
+
+.img5{
+  top: 10px;
+  right: -35px;
+}
+/* 
+@keyframes roted {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(369deg);
+    }
+}   */
+
+/* Ani-section-end */
+
+/* Deco-Sheets-Setion */
+
+.slider-cont h3{
+    text-align: center;
+font-size: 40px;
+font-weight: bold;
+}
+
+.slider-cont h3 span{
+    color: orange;
+}
+
+.slider-container{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider img{
+    height: 400px;
+}
+
+/* Deco-Sheets-Setion-end */
+
+
+/* Exc-call-section */
+
+.exc-cont h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.exc-cont h3 span{
+    color: orange;
+}
+
+.sheet-container{
+    padding-top: 20px;
+}
+
+.sheet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid orange;
+   height: 250px;
+   cursor: pointer;
+   
+}
+
+.sheet:hover{
+  background-color: #222;
+}
+
+
+.sheet h6{
+    font-size: 20px;
+    padding-top: 10px;
+}
+/* Exc-call-section-end */
+
+
+/* footer-start */
+
+.footer-cont{
+    padding: 100px 0;
+}
+.footer-cont h6{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid orange ;
+   padding-bottom: 10px;
+}
+
+
+.footer-cont .links{
+    padding-top:10px;
+}
+
+.footer-cont .links a {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 5px ;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+}
+
+.links a:hover{
+    color: orange;
+}
+/* 
+.links-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 50px;
+} */
+
+.links-2{
+    padding-top: 10px;
+   display: flex;
+   align-items: center;
+    
+}
+
+.links-2 a{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 5px ;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+    line-height: 30px;
+}
+
+.links-2 a:hover{
+    color: orange;
+    
+}
+
+.links-2 a i{
+    padding: 20px;
+    font-size: 18px;
+    background-color: olive;
+    border-radius: 50%;
+     margin-right: 20px;
+}
+
+
+.links p{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+/* footer-End */
+
+@media screen and (max-width: 1920px) {
+    
+}
+
+@media screen and (max-width: 1600px) {
+    
+}
+
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 1366px) {
+    
+}
+
+@media screen and (max-width: 1280px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+
+    section{
+        padding: 30px 0;
+    }
+
+    h3{
+        font-size: 45px !important;
+    }
+
+    p{
+        font-size: 16px !important;
+    }
+
+    .nav-link{
+        font-size: 14px;
+    }
+
+    .hero-cont{
+        height: 95vh;
+        background-position: center;
+    }
+
+    .hero-cont h1{
+        font-size: 50px;
+    }
+
+    .hero-cont h2{
+        font-size: 50px;
+    }
+    .animation-container{
+        padding: 130px 0;
+    }
+
+    .animation{
+        width: 330px;
+        height: 300px;
+    }
+
+    .ani-img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .ani-img img{
+        width: 130px;
+        height: 130px;
+    }
+    .img2 {
+        top: 70px;
+        left: -56px;
+    }
+    .img3 {
+        top: 218px;
+        left: 46px;
+    }
+
+    .img4 {
+        top: 175px;
+        right: -20px;
+    }
+
+    .slider-container{
+        padding: 15px 0 ;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 15px ;
+    }
+.slick-slider img{
+    width: auto;
+    height: 360px;
+    object-fit: cover;
+}
+
+.sheet{
+    height: 180px;
+}
+
+.sheet img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.footer-cont {
+    padding: 30px 0;
+}
+   
+}
+
+@media screen and (max-width: 991px) {
+
+section{
+    padding: 15px 0;
+}
+
+    h3{
+        font-size: 35px !important;
+    }
+
+    p{
+        font-size: 14px !important;
+    }
+    .animation{
+        width: 280px;
+        height: 280px;
+    }
+
+    .ani-img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .ani-img img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .slick-slide img {
+        width: 1005;
+        height: 260px;
+        object-fit: cover;
+    }
+
+    .sheet{
+        height: 180px;
+    }
+
+    .sheet img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        
+    }
+
+    .sheet h6{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .hero-cont h1{
+        font-size: 40px;
+    }
+    .hero-cont h2{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 40px !important;
+    }
+
+    p{
+        font-size: 20px !important;
+        text-align: justify;
+    }
+    .animation-container{
+        padding: 60px 0;
+    }
+    .slick-slide img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .sheet{
+        height: 300px;
+    }
+
+    .sheet img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .sheet h6{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+}
+
+@media screen and (max-width: 479px) {
+
+    .hero-cont{
+        height: 33vh;
+    }
+    .hero-cont h1 {
+        font-size: 30px;
+    }
+.hero-cont h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 28px !important;
+}
+
+p{
+    font-size: 16px !important;
+}
+
+.animation{
+    width: 235px;
+    height: 235px;
+}
+
+.ani-img{
+    width: 80px;
+    height: 80px;
+}
+
+.ani-img img{
+    width: 80px;
+    height: 80px;
+}
+
+.img1 {
+    top: -38px;
+    left: 51px;
+}
+ .img2{
+top: 55px;
+left: -34px;
+}
+.img3 {
+    top: 180px;
+    left: 34px;
+}
+.img4 {
+    top: 140px;
+    right: -20px;
+}
+   
+.img5 {
+    top: 10px;
+    right: -12px;
+}
+.slick-slide img{
+    height: 400px;
+}
+}

@@ -1,0 +1,48 @@
+.mirror-s-container h4 {
+  font-size: 30px;
+}
+
+.mirror-c{
+    margin:  50px 0;
+}
+
+.card img {
+   
+  height: 250px;
+}
+
+.mirror-content h6 {
+  font-size: 25px;
+  color: orange;
+}
+
+.mirror-content p {
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+
+@media screen and (max-width:479px) {
+
+.mirror-container h4{
+    font-size: 24px;
+}
+
+.mirror-c{
+    margin: 15px 0;
+}
+
+
+
+    .mirror-content h6{
+        padding-top: 20px;
+font-size: 20px;
+text-align: justify;
+    }
+
+    .mirror-content p{
+        font-size: 16px;
+    }
+}
